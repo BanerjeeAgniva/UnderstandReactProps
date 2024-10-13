@@ -9,6 +9,10 @@ function App() {
                 name="Mr. Whiskerson"
                 phone="(212) 555-1234"
                 email="mr.whiskaz@catnap.meow"
+                isCatCute={true}
+                upvotes={10}
+                downvotes={2}
+                comments={[{author: "", body: "", title: ""}]}
             />
             <Contact 
                 img="./images/fluffykins.png"
